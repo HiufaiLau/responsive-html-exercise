@@ -63,13 +63,27 @@
     margin: auto;
   }
 
+  .card-img-top {
+      width: 100%;
+      border-top-left-radius: calc(.25rem - 1px);
+      border-top-right-radius: calc(.25rem - 1px);
+  }
+
   img {
-    width: 200px;
+    vertical-align: middle;
+    border-style: none;
     height: 300px;
-    float: left;
-    margin: 2%;
+    /* float: left; */
+    /* margin: 2%; */
+    radius:2rem;
     padding: 1%;
   }
+
+.left{
+  float:left;
+}
+
+
 
   .logo > img{
     margin-top: 1em;
