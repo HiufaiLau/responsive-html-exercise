@@ -1,7 +1,8 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    /* background-color: #333; */
+    background-color:#343a40;
     overflow: hidden;
 }
 
@@ -90,14 +91,30 @@
 
   a>p {
     text-decoration: none;
-    color:#d39e00;
+    /* color:#117a8b; */
+    color:#17a2b8;
+
   }
 
   .text-container {
     color:#ffffff;
-    margin:3%
+    margin:auto;
   }
 
 .backgroundColor{
   background-color: #000000;
+}
+
+.card{
+  margin-bottom: 3em;
+
+}
+
+footer {
+   /* position: fixed; */
+  padding:2em;
+   width: 100%;
+   background-color: #343a40;
+   color: white;
+   text-align: center;
 }
