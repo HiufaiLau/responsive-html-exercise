@@ -85,12 +85,16 @@
     height: 100px;
   }
 
-  a{
+  a>p {
     text-decoration: none;
     color:#d39e00;
   }
 
   .text-container {
     color:#ffffff;
-    margin:3%;
+    margin:3%
   }
+
+.backgroundColor{
+  background-color: #000000;
+}
